@@ -41,3 +41,5 @@ body {
     clear: both; }
   .navbar .nav-justified > li > a:hover {
     background-color: #3b3b3b; }
+  .navbar .nav-justified > li > a:focus {
+    background-color: #3b3b3b; }

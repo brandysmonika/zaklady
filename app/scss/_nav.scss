@@ -40,8 +40,12 @@
     }
     .nav-justified>li>a:hover {
         background-color: $base-grey;
-        
     }
+     .nav-justified>li>a:focus {
+        background-color: $base-grey;
+    }
+    
+
    
     
 }
