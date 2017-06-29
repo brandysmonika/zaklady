@@ -1,0 +1,47 @@
+@import 'base';
+
+.navbar {
+    background-color: $base-color;
+    border: none;    
+    
+    .navbar-brand {
+        background-image: url(../img/logo.png);
+        height: 58px;
+        width: 42px;
+    }
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-top: 15px;
+    }
+    .nav-tabs.nav-justified>li>a {
+        float: right;
+        width: 20%;
+        color: $base-orange;
+        font-size: $base-size;
+        border-bottom: 1px solid $base-grey;
+        font-family: $nav-font;
+    }
+     .nav-tabs.nav-justified>li>a:hover {
+        background-color: $base-grey;
+         border: 1px solid $base-grey;
+    }    
+    .glyphicon {
+        color: $base-orange;
+        padding: 0 10px;
+        font-size: 1.5em;
+    }
+    .nav-justified>li>a {
+        color: $base-font-color;
+        font-size: $base-size;
+        width: 80%;
+        margin-left: 15px;
+        font-family: $nav-font;
+        padding: 10px 0;
+        clear: both;
+    }
+    .nav-justified>li>a:hover {
+        background-color: $base-grey;
+        
+    }
+   
+    
+}

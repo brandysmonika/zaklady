@@ -1,0 +1,43 @@
+/* Bazowe style */
+/* Bazowe style dla menu nawigacyjnego */
+body {
+  background-color: #0e0e0e; }
+
+/* Bazowe style */
+/* Bazowe style dla menu nawigacyjnego */
+body {
+  background-color: #0e0e0e; }
+
+.navbar {
+  background-color: #0e0e0e;
+  border: none; }
+  .navbar .navbar-brand {
+    background-image: url(../img/logo.png);
+    height: 58px;
+    width: 42px; }
+  .navbar .navbar > .container .navbar-brand, .navbar .navbar > .container-fluid .navbar-brand {
+    margin-top: 15px; }
+  .navbar .nav-tabs.nav-justified > li > a {
+    float: right;
+    width: 20%;
+    color: #ffa500;
+    font-size: 16px;
+    border-bottom: 1px solid #3b3b3b;
+    font-family: "Raleway", sans-serif; }
+  .navbar .nav-tabs.nav-justified > li > a:hover {
+    background-color: #3b3b3b;
+    border: 1px solid #3b3b3b; }
+  .navbar .glyphicon {
+    color: #ffa500;
+    padding: 0 10px;
+    font-size: 1.5em; }
+  .navbar .nav-justified > li > a {
+    color: #ffffff;
+    font-size: 16px;
+    width: 80%;
+    margin-left: 15px;
+    font-family: "Raleway", sans-serif;
+    padding: 10px 0;
+    clear: both; }
+  .navbar .nav-justified > li > a:hover {
+    background-color: #3b3b3b; }
