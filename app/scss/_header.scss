@@ -1,0 +1,26 @@
+@import 'base';
+
+header {
+  background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/header.jpg);
+  height: 450px;
+  background-position: center;
+  background-size: center;
+  position: relative; 
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#discount {
+    line-height: 450px;
+}
+.btn {
+    background-color: $base-orange;
+    font-size: 25px;
+    font-family: $header-font;
+}
+
+#verticalButton
+{
+     vertical-align: middle;
+}

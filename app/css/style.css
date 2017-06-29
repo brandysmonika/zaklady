@@ -1,22 +1,19 @@
 /* Bazowe style */
 /* Bazowe style dla menu nawigacyjnego */
 body {
-  background-color: #0e0e0e; }
+  background-color: rgba(255, 165, 0, 0.8); }
 
 /* Bazowe style */
 /* Bazowe style dla menu nawigacyjnego */
 body {
-  background-color: #0e0e0e; }
+  background-color: rgba(255, 165, 0, 0.8); }
 
 .navbar {
   background-color: #0e0e0e;
-  border: none; }
-  .navbar .navbar-brand {
-    background-image: url(../img/logo.png);
-    height: 58px;
-    width: 42px; }
-  .navbar .navbar > .container .navbar-brand, .navbar .navbar > .container-fluid .navbar-brand {
-    margin-top: 15px; }
+  border: none;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 10px; }
   .navbar .nav-tabs.nav-justified > li > a {
     float: right;
     width: 20%;
@@ -43,3 +40,45 @@ body {
     background-color: #3b3b3b; }
   .navbar .nav-justified > li > a:focus {
     background-color: #3b3b3b; }
+
+/* Bazowe style */
+/* Bazowe style dla menu nawigacyjnego */
+body {
+  background-color: rgba(255, 165, 0, 0.8); }
+
+header {
+  background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/header.jpg);
+  height: 450px;
+  background-position: center;
+  background-size: center;
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 5px; }
+
+#discount {
+  line-height: 450px; }
+
+.btn {
+  background-color: #ffa500;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif; }
+
+#verticalButton {
+  vertical-align: middle; }
+
+/* Bazowe style */
+/* Bazowe style dla menu nawigacyjnego */
+body {
+  background-color: rgba(255, 165, 0, 0.8); }
+
+.main-section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 350px; }
+
+#section-left {
+  background-color: red; }
+
+#section-right {
+  background-color: green; }
