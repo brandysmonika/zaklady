@@ -1,12 +1,12 @@
 /* Bazowe style */
 /* Bazowe style dla menu nawigacyjnego */
 body {
-  background-color: rgba(255, 165, 0, 0.8); }
+  background-color: #ffa500; }
 
 /* Bazowe style */
 /* Bazowe style dla menu nawigacyjnego */
 body {
-  background-color: rgba(255, 165, 0, 0.8); }
+  background-color: #ffa500; }
 
 .navbar {
   background-color: #0e0e0e;
@@ -44,7 +44,7 @@ body {
 /* Bazowe style */
 /* Bazowe style dla menu nawigacyjnego */
 body {
-  background-color: rgba(255, 165, 0, 0.8); }
+  background-color: #ffa500; }
 
 header {
   background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/header.jpg);
@@ -70,15 +70,58 @@ header {
 /* Bazowe style */
 /* Bazowe style dla menu nawigacyjnego */
 body {
-  background-color: rgba(255, 165, 0, 0.8); }
+  background-color: #ffa500; }
+
+section .container {
+  margin: 0 auto;
+  width: 95%; }
 
 .main-section {
   margin-top: 10px;
   margin-bottom: 10px;
-  height: 350px; }
-
-#section-left {
-  background-color: red; }
+  height: 490px;
+  border-radius: 5px; }
 
 #section-right {
-  background-color: green; }
+  background-color: #0e0e0e; }
+
+#inner-left-top {
+  background-color: #0e0e0e;
+  height: 240px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  width: 118%; }
+
+#inner-left-down {
+  background-color: #0e0e0e;
+  height: 240px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  width: 118%; }
+
+table {
+  height: 110px; }
+
+.btn-play {
+  font-size: 14px;
+  border: 1px solid #ffa500; }
+
+.btn-play:hover,
+.btn-play:focus {
+  font-size: 14px;
+  border: 1px solid #ffa500;
+  background-color: #3b3b3b;
+  color: #ffa500; }
+
+h2 {
+  font-size: 25px;
+  color: #ffa500;
+  font-family: "Raleway", sans-serif; }
+
+.table > tbody > tr.active > td, .table > tbody > tr.active > th, .table > tbody > tr > td.active, .table > tbody > tr > th.active, .table > tfoot > tr.active > td, .table > tfoot > tr.active > th, .table > tfoot > tr > td.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th, .table > thead > tr > td.active, .table > thead > tr > th.active {
+  background-color: #3b3b3b;
+  border: 1px solid #3b3b3b;
+  color: #ffffff;
+  font-size: 16px; }

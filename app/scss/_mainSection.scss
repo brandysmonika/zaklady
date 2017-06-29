@@ -1,18 +1,64 @@
 @import 'base';
+
+@mixin inner {
+    background-color: $base-color;
+    height: 240px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+section .container {
+  margin: 0 auto;
+  width: 95%;  
+}
 .main-section {
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 350px; 
-   
-       
-}
-#section-left {
-    background-color: red;
- 
-    
+    height: 490px; 
+    border-radius: 5px;       
 }
 
 #section-right {
-    background-color: green;
-     
+    background-color: $base-color;     
+}
+
+#inner-left-top {
+   @include inner;
+   width: 118%;
+    
+}
+
+#inner-left-down {
+ @include inner;
+    width: 118%;
+}
+
+table {
+    height: 110px;    
+}
+
+.btn-play {
+    font-size: 14px;
+    border: 1px solid $base-orange;
+}
+
+.btn-play:hover,
+.btn-play:focus {
+    font-size: 14px;
+    border: 1px solid $base-orange;
+    background-color: $base-grey;
+    color: $base-orange;
+}
+
+h2 {
+    font-size: $base-h2;
+    color: $base-orange;
+    font-family: $header-font;
+}
+.table>tbody>tr.active>td, .table>tbody>tr.active>th, .table>tbody>tr>td.active, .table>tbody>tr>th.active, .table>tfoot>tr.active>td, .table>tfoot>tr.active>th, .table>tfoot>tr>td.active, .table>tfoot>tr>th.active, .table>thead>tr.active>td, .table>thead>tr.active>th, .table>thead>tr>td.active, .table>thead>tr>th.active {
+    background-color: $base-grey;
+    border: 1px solid $base-grey;
+    color: $base-font-color;
+    font-size: $base-size;
 }

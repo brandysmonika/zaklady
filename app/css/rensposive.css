@@ -1,7 +1,7 @@
 /* Bazowe style */
 /* Bazowe style dla menu nawigacyjnego */
 body {
-  background-color: rgba(255, 165, 0, 0.8); }
+  background-color: #ffa500; }
 
 @media (max-width: 768px) {
   .navbar {
@@ -21,7 +21,15 @@ body {
     background-color: #ffa500; }
   .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
     border: none;
-    padding-top: 5px; } }
+    padding-top: 5px; }
+  #inner-left-top,
+  #inner-left-down {
+    width: 100%; } }
+
+@media (min-width: 768px) and (max-width: 990px) {
+  #inner-left-top,
+  #inner-left-down {
+    width: 100%; } }
 
 @media (max-width: 480px) {
   .navbar .nav-justified > li > a {

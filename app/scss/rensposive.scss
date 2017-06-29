@@ -2,6 +2,7 @@
 
 
 
+
 @media (max-width: 768px) {
     .navbar {
         background-color: $base-grey;
@@ -30,12 +31,21 @@
         border: none;
         padding-top: 5px;        
     }
+    #inner-left-top,
+    #inner-left-down {
+     width: 100%;
+    
+}
       
 }
 
 
 @media (min-width: 768px) and (max-width: 990px) {
-   
+    #inner-left-top,
+    #inner-left-down {
+     width: 100%;
+    
+}
 }
 
 @media (max-width: 480px) {
@@ -45,5 +55,6 @@
        header .btn {
         font-size: 18px;
     }
-    
+   
+
 }

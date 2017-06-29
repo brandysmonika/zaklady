@@ -4,11 +4,12 @@ $base-font-color: #ffffff;
 $base-orange: #ffa500;
 $base-size: 16px;
 $base-grey: #3b3b3b;
+$base-h2: 25px;
 
 /* Bazowe style dla menu nawigacyjnego */
 $nav-font: 'Raleway', sans-serif;
 $header-font: 'Raleway', sans-serif;
 
 body {
-    background-color: rgba(255, 165, 0, 0.8);
+    background-color: $base-orange;
 }
