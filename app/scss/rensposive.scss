@@ -30,7 +30,8 @@
     }
     #inner-left-top,
     #inner-left-down {
-     width: 100%;    
+     width: 100%;
+        margin: 10px auto;
 }
     .navbar .language {
         padding-left: 0;             
@@ -61,6 +62,9 @@
         font-size: 90%;
         margin-right: 5px;
     }
+    .casino h2 {
+    padding-top: 30px;
+}
 
     }
 
@@ -68,9 +72,17 @@
     #inner-left-top,
     #inner-left-down {
      width: 100%;
+        margin: 10px auto;
         }
     .navbar .language {
         padding-left: 20px;             
+    }
+    .casino h2 {
+    padding-top: 45px;
+}
+    .casino p {
+        margin-right: 10px;
+        margin-left: 10px;
     }
     
 }
@@ -112,5 +124,13 @@
         margin-top: 5px;
         font-size: 90%;
         margin-right: 5px;
+    }
+    .casino {
+        height: 100%;
+    }
+    .casino h2,
+    .casino p {
+        margin-right: 10px;
+        margin-left: 10px;
     }
 }

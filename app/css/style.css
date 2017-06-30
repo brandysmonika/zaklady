@@ -112,7 +112,8 @@ section .container {
   border-radius: 5px;
   margin-bottom: 10px;
   width: 100%;
-  width: 118%; }
+  width: 118%;
+  margin-left: -15px; }
 
 #inner-left-down {
   background-color: #0e0e0e;
@@ -120,7 +121,38 @@ section .container {
   border-radius: 5px;
   margin-bottom: 10px;
   width: 100%;
-  width: 118%; }
+  width: 118%;
+  margin-left: -15px;
+  background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/poker.jpg);
+  background-position: center; }
+
+.casino {
+  height: 85%;
+  width: 50%;
+  background-color: rgba(59, 59, 59, 0.8);
+  border-radius: 5px;
+  text-align: center; }
+
+.casino h2 {
+  padding-top: 25px; }
+
+.casino p {
+  color: #ffffff;
+  margin-right: 5px;
+  margin-left: 5px; }
+
+#inner-left-down .btn {
+  font-size: 14px;
+  border: 1px solid #ffa500;
+  color: #3b3b3b; }
+
+#inner-left-down .btn:hover,
+#inner-left-down .btn:focus {
+  font-size: 14px;
+  border: 1px solid #ffa500;
+  background-color: #3b3b3b;
+  color: #ffa500;
+  box-shadow: none; }
 
 table {
   height: 120px; }
@@ -138,7 +170,18 @@ table {
   color: #ffa500;
   box-shadow: none; }
 
-.table > tbody > tr.active > td, .table > tbody > tr.active > th, .table > tbody > tr > td.active, .table > tbody > tr > th.active, .table > tfoot > tr.active > td, .table > tfoot > tr.active > th, .table > tfoot > tr > td.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th, .table > thead > tr > td.active, .table > thead > tr > th.active {
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > thead > tr.active > th,
+.table > thead > tr > td.active,
+.table > thead > tr > th.active {
   background-color: #3b3b3b;
   border: 1px solid #3b3b3b;
   color: #ffffff;

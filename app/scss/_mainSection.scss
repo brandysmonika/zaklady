@@ -1,5 +1,4 @@
 @import 'base';
-
 @mixin inner {
     background-color: $base-color;
     height: 240px;
@@ -13,7 +12,6 @@ p {
     font-size: $base-size;
     color: $base-orange;
     line-height: 1.5em;
-    
 }
 
 h2 {
@@ -28,26 +26,66 @@ h2 {
 }
 
 section .container {
-  margin: 0 auto;
-  width: 95%;  
+    margin: 0 auto;
+    width: 95%;
 }
+
 .main-section {
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 490px; 
-    border-radius: 5px;       
+    height: 490px;
+    border-radius: 5px;
 }
 
 #inner-left-top {
-   @include inner;
-   width: 118%;
-    
+    @include inner;
+    width: 118%;
+    margin-left: -15px;
 }
 
 #inner-left-down {
- @include inner;
+    @include inner;
     width: 118%;
+    margin-left: -15px;
+    background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/poker.jpg);
+    background-position: center;
+    
 }
+
+.casino {
+     height: 85%;
+    width: 50%;
+    background-color: rgba(59, 59, 59, 0.8);
+    border-radius: 5px;
+    text-align: center;    
+}
+
+.casino h2 {
+    padding-top: 25px;
+}
+
+.casino p {
+    color: $base-font-color;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#inner-left-down .btn {
+    font-size: 14px;
+    border: 1px solid $base-orange;
+    color: $base-grey;
+}
+
+#inner-left-down .btn:hover,
+#inner-left-down .btn:focus {
+    font-size: 14px;
+    border: 1px solid $base-orange;
+    background-color: $base-grey;
+    color: $base-orange;
+    box-shadow: none;
+}
+
+
 
 table {
     height: 120px;
@@ -68,7 +106,18 @@ table {
     box-shadow: none;
 }
 
-.table>tbody>tr.active>td, .table>tbody>tr.active>th, .table>tbody>tr>td.active, .table>tbody>tr>th.active, .table>tfoot>tr.active>td, .table>tfoot>tr.active>th, .table>tfoot>tr>td.active, .table>tfoot>tr>th.active, .table>thead>tr.active>td, .table>thead>tr.active>th, .table>thead>tr>td.active, .table>thead>tr>th.active {
+.table>tbody>tr.active>td,
+.table>tbody>tr.active>th,
+.table>tbody>tr>td.active,
+.table>tbody>tr>th.active,
+.table>tfoot>tr.active>td,
+.table>tfoot>tr.active>th,
+.table>tfoot>tr>td.active,
+.table>tfoot>tr>th.active,
+.table>thead>tr.active>td,
+.table>thead>tr.active>th,
+.table>thead>tr>td.active,
+.table>thead>tr>th.active {
     background-color: $base-grey;
     border: 1px solid $base-grey;
     color: $base-font-color;
@@ -76,11 +125,12 @@ table {
     vertical-align: middle;
 }
 
+
 /* Sekcja prawa strona */
+
 #section-right {
     background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/girl-1561989_1280.jpg);
     background-position: center;
-    
 }
 
 .discount {
@@ -91,31 +141,29 @@ table {
     padding: 30px;
     text-align: center;
     margin-top: 60px;
-    
 }
 
 .check {
-   height: auto;
+    height: auto;
     width: 90%;
-    background-color: rgba(59, 59, 59, 0.8); 
+    background-color: rgba(59, 59, 59, 0.8);
     border-radius: 5px;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-   
 }
 
 .discount p {
     color: $base-font-color;
     margin-right: 5px;
-    margin-left: 5px; 
+    margin-left: 5px;
 }
 
 #section-right .check .btn {
     padding: 10px;
     margin-right: 15px;
     font-size: 14px;
-     color: $base-font-color;
+    color: $base-font-color;
 }
 
 #section-right .check .btn:hover,
@@ -125,13 +173,13 @@ table {
     box-shadow: none;
 }
 
-.btn-brown {    
+.btn-brown {
     border: 1px solid #4e2310;
-    background-color: #4e2310;   
+    background-color: #4e2310;
 }
 
 .btn-brown:hover,
-.btn-brown:focus {    
+.btn-brown:focus {
     border: 1px solid #4e2310;
 }
 
@@ -154,6 +202,3 @@ table {
 .btn-gold:focus {
     border: 1px solid $base-orange;
 }
-
-
-
