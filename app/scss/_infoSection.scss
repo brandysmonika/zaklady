@@ -1,1 +1,46 @@
 @import 'base';
+
+#info-section {
+    background-color: $base-grey;
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#info-section h2 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#info-section p {
+    color: $base-font-color;
+}
+
+.text-position {
+    margin-top: 50px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+#info-section .btn {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#info-section .btn:hover {
+    font-size: 14px;
+    margin-bottom: 5px;
+    background-color: $base-grey;
+    border: 1px solid $base-orange;
+    color: $base-orange;
+}
+
+

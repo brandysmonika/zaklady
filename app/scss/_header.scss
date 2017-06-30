@@ -20,7 +20,11 @@ header {
     font-size: 25px;
     font-family: $header-font;
 }
-
+#discount .btn:hover {
+    background-color: $base-grey;
+    border: 1px solid $base-orange;
+    color: $base-orange;
+}
 #vertical-button {
     vertical-align: middle;
 }

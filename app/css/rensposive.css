@@ -1,9 +1,6 @@
 @charset "UTF-8";
 /* Bazowe style */
 /* Bazowe style dla menu nawigacyjnego */
-body {
-  background-color: #ffa500; }
-
 @media (max-width: 768px) {
   /* Menu nawigacyjne START */
   .navbar {
@@ -54,7 +51,14 @@ body {
     margin-right: 5px; }
   .casino h2 {
     padding-top: 30px; }
-  /* Głowna sekcja STOP */ }
+  /* Głowna sekcja STOP */
+  /* Sekcja informacyjne START */
+  .text-position {
+    margin-top: 10px; }
+  form {
+    margin: 0 auto;
+    width: 50%; }
+  /* Sekcja informacyjne STOP */ }
 
 @media (min-width: 768px) and (max-width: 990px) {
   /* Menu nawigacyjne START */
@@ -73,7 +77,14 @@ body {
   .casino p {
     margin-right: 10px;
     margin-left: 10px; }
-  /* Głowna sekcja STOP */ }
+  /* Głowna sekcja STOP */
+  /* Sekcja informacyjne START */
+  .text-position {
+    margin-top: 10px; }
+  form {
+    margin: 0 auto;
+    width: 50%; }
+  /* Sekcja informacyjne STOP */ }
 
 @media (min-width: 768px) and (max-width: 1115px) {
   /* Głowna sekcja START */
