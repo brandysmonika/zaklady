@@ -1,13 +1,10 @@
 @import 'base';
 
-
-
-
 @media (max-width: 768px) {
     .navbar {
         background-color: $base-grey;
     }
-   
+       
     .navbar .nav-tabs.nav-justified > li > a  {
         float: none;
         margin: 0 auto;
@@ -33,19 +30,56 @@
     }
     #inner-left-top,
     #inner-left-down {
-     width: 100%;
+     width: 100%;    
+}
+    .navbar .language {
+        padding-left: 0;             
+    }
+    .nav-pills > li:last-child {
+        text-align: center;
+        padding-left: 25px;
+    } 
+    .table-responsive {
+        border: none;
+    }
     
-}
-      
-}
+    #section-right {
+        padding: 30px;
+    }
+   
+    .discount,
+    .check  {
+        margin: 0 auto;
+        
+    }
+    .check {
+        margin-top: 30px;
+    }
+    
+    #section-right .check .btn {
+        padding: 10px;
+        font-size: 90%;
+        margin-right: 5px;
+    }
 
+    }
 
 @media (min-width: 768px) and (max-width: 990px) {
     #inner-left-top,
     #inner-left-down {
      width: 100%;
+        }
+    .navbar .language {
+        padding-left: 20px;             
+    }
     
 }
+
+@media (min-width: 768px) and (max-width: 1115px) {
+    #section-right .check .btn {
+        padding: 10px;
+        font-size: 90%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -55,6 +89,28 @@
        header .btn {
         font-size: 18px;
     }
+    .nav-pills > li:last-child {
+        padding-left: 0px;
+    }
    
-
+    #section-right {
+        padding: 30px;
+        height: auto;
+    }
+   
+    .discount,
+    .check  {
+        margin: 0 auto;
+        width: auto;
+        
+    }
+    .check {
+        margin-top: 15px;
+    }
+    #section-right .check .btn {
+        padding: 10px;
+        margin-top: 5px;
+        font-size: 90%;
+        margin-right: 5px;
+    }
 }

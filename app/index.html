@@ -20,25 +20,29 @@
 
     <!-- Menu nawigacyjne -->
     
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
+    <nav class="navbar navbar-default">       
+        <div class="container-fluid">         
+            <div class="navbar-header"> 
+                      
+               
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>                
+                </button>                               
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                
-                 <ul class="nav nav-tabs nav-justified">               <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Logowanie</a></li>
+                            
+                 <ul class="nav nav-tabs nav-justified">
+                 <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Logowanie</a></li>
                 </ul>                
                 <ul class="nav nav-pills nav-justified">
+                   
                     <li><a href="#">Zakłady bukmacherskie</a></li>
                     <li><a href="#">Zakłady na żywo</a></li>
-                    <li><a href="#">Kasyno</a></li>
-                    <li><a href="#">Klub</a></li>
+                    <li><a href="#">Kasyno</a></li>                <li><a href="#">Klub</a></li>
+                    <li><span class="language"><a href="#">PL</a> | <a href="">EN</a></span></li>                        
                 </ul>
             </div>
         </div>
@@ -50,19 +54,18 @@
     <div class="container" id="discount">
         <div class="row">
             <div class="col-sm-12 text-center">
-              <button type="button" class="btn" id="verticalButton">Załóż konto i odbierz bonus!</button>  
+              <button type="button" class="btn" id="vertical-button">Załóż konto i odbierz bonus!</button>  
             </div>
         </div>
     </div>    
 </header>
 
-<!-- Sekcja warto grać -->
+<!-- Main Section  -->
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-md-5 col-sm-12 main-section" id="section-left">
-                <div class="row">
-                <div class="col-md-12 col-sm-12" id="inner-left-top">
+            <div class="col-md-5 col-sm-12 main-section" id="section-left">                
+                <div id="inner-left-top">
                    <div class="table-responsive">
                       <table class="table text-center">
                         <thead>
@@ -80,7 +83,7 @@
                             Meksyk
                         </td>
                         <td>
-                            <a class="btn btn-default btn-play" href="#" role="button">Zagraj</a>
+                            <a class="btn btn-play" href="#" role="button">Zagraj</a>
                         </td>
                     </tr>
                     <tr class="active">
@@ -94,7 +97,7 @@
                             Szwecja
                         </td>
                         <td>
-                            <a class="btn btn-default btn-play" href="#" role="button">Zagraj</a>
+                            <a class="btn btn-play" href="#" role="button">Zagraj</a>
                         </td>
                     </tr>
                     <tr class="active">
@@ -108,18 +111,29 @@
                             Łotwa
                         </td>
                         <td>
-                            <a class="btn btn-default btn-play" href="#" role="button">Zagraj</a>
+                            <a class="btn btn-play" href="#" role="button">Zagraj</a>
                         </td>
                     </tr>                  
                 </tbody>
                       </table>
                 </div>
                 </div>
-                   <div class="col-md-12 col-sm-12" id="inner-left-down">
-                       </div>
-               </div>
+                   <div id="inner-left-down">                     </div>
+               
             </div>
-            <div class="col-md-6 col-md-offset-1 col-sm-12 main-section" id="section-right"></div>
+            <div class="col-md-6 col-md-offset-1 col-sm-12 main-section" id="section-right">
+                  <div class="discount">               
+                <h2>Poniedziałek nie taki straszny!</h2>
+                <p>Grając w poniedziałki, bierzesz udział w losowaniu egzotycznej wycieczki!</p>
+                <a class="btn btn-play" href="#" role="button">Sprawdź</a>                
+            </div>
+                       <div class="check">               
+                <h2>Dołącz do naszego klubu!</h2>
+                <a class="btn btn-brown" href="#" role="button">Karta brązowa</a> 
+                <a class="btn btn-silver" href="#" role="button">Karta srebrna</a>    
+                <a class="btn btn-gold" href="#" role="button">Karta złota</a>                 
+            </div>
+            </div>
         </div>
     </div>
 </section>

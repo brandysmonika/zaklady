@@ -7,6 +7,8 @@
     margin: 0 auto;
     margin-bottom: 10px;
     
+   
+    
     .nav-tabs.nav-justified>li>a {
         float: right;
         width: 20%;
@@ -38,5 +40,17 @@
     }
      .nav-justified>li>a:focus {
         background-color: $base-grey;
-    }    
+    }
+    .language {
+        color: $base-orange;
+        font-size: $base-size;
+        padding-left: 50px;             
+    }
+    .language a {
+       color: $base-orange;
+        text-decoration: none;
+        font-family: $nav-font;
+        font-weight: bold;
+                
+    }
 }
