@@ -1,4 +1,5 @@
 @import 'base';
+
 @mixin inner {
     background-color: $base-color;
     height: 240px;
@@ -7,13 +8,7 @@
     width: 100%;
 }
 
-p {
-    font-family: $header-font;
-    font-size: $base-size;
-    color: $base-orange;
-    line-height: 1.5em;
-}
-
+/* Nagłówki h2 START */
 h2 {
     font-size: $base-h2;
     color: $base-orange;
@@ -22,81 +17,42 @@ h2 {
 }
 
 .table-responsive h2 {
-    padding-top: 10px;
-}
-
-section .container {
-    margin: 0 auto;
-    width: 95%;
-}
-
-.main-section {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 490px;
-    border-radius: 5px;
-}
-
-#inner-left-top {
-    @include inner;
-    width: 118%;
-    margin-left: -15px;
-}
-
-#inner-left-down {
-    @include inner;
-    width: 118%;
-    margin-left: -15px;
-    background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/poker.jpg);
-    background-position: center;
-    
-}
-
-.casino {
-     height: 85%;
-    width: 50%;
-    background-color: rgba(59, 59, 59, 0.8);
-    border-radius: 5px;
-    text-align: center;    
+    padding-top: 15px;
 }
 
 .casino h2 {
     padding-top: 25px;
 }
+/* Nagłówki h2 STOP */
 
-.casino p {
+
+/* Style dla paragrafów START */
+p {
+    font-family: $header-font;
+    font-size: $base-size;
+    color: $base-orange;
+    line-height: 1.5em;
+}
+
+.casino p,
+.discount p {
     color: $base-font-color;
     margin-right: 5px;
     margin-left: 5px;
 }
-
-#inner-left-down .btn {
-    font-size: 14px;
-    border: 1px solid $base-orange;
-    color: $base-grey;
-}
-
-#inner-left-down .btn:hover,
-#inner-left-down .btn:focus {
-    font-size: 14px;
-    border: 1px solid $base-orange;
-    background-color: $base-grey;
-    color: $base-orange;
-    box-shadow: none;
-}
+/* Style dla paragrafów STOP */
 
 
-
-table {
-    height: 120px;
-}
-
+/* Style dla button START */
+#inner-left-down .btn,
 .btn-play {
     font-size: 14px;
     border: 1px solid $base-orange;
     color: $base-grey;
 }
 
+#inner-left-down .btn:hover,
+#inner-left-down .btn:focus,
 .btn-play:hover,
 .btn-play:focus {
     font-size: 14px;
@@ -123,40 +79,6 @@ table {
     color: $base-font-color;
     font-size: $base-size;
     vertical-align: middle;
-}
-
-
-/* Sekcja prawa strona */
-
-#section-right {
-    background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/girl-1561989_1280.jpg);
-    background-position: center;
-}
-
-.discount {
-    height: auto;
-    width: 60%;
-    background-color: rgba(59, 59, 59, 0.8);
-    border-radius: 5px;
-    padding: 30px;
-    text-align: center;
-    margin-top: 60px;
-}
-
-.check {
-    height: auto;
-    width: 90%;
-    background-color: rgba(59, 59, 59, 0.8);
-    border-radius: 5px;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-}
-
-.discount p {
-    color: $base-font-color;
-    margin-right: 5px;
-    margin-left: 5px;
 }
 
 #section-right .check .btn {
@@ -202,3 +124,72 @@ table {
 .btn-gold:focus {
     border: 1px solid $base-orange;
 }
+/* Style dla button STOP */
+
+
+/* Główny contener START */
+section .container {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.main-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 490px;
+    border-radius: 5px;
+}
+/* Główny contener STOP */
+
+
+/* Sekcja lewa START */
+.inner {
+    @include inner;
+    width: 118%;
+    margin-left: -15px;
+}
+
+#inner-left-down {
+    background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/poker.jpg);
+    background-position: center;
+}
+
+.casino {
+    height: 85%;
+    width: 50%;
+    background-color: rgba(59, 59, 59, 0.8);
+    border-radius: 5px;
+    text-align: center;
+}
+
+table {
+    height: 120px;
+}
+/* Sekcja lewa STOP */
+
+
+/* Sekcja prawa strona START */
+#section-right {
+    background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/girl-1561989_1280.jpg);
+    background-position: center;
+}
+
+.inner-section-right {
+    height: auto;
+    background-color: rgba(59, 59, 59, 0.8);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.discount {
+    width: 60%;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.check {
+    width: 90%;
+    padding: 20px;
+    margin-top: 40px;
+}
+/* Sekcja prawa strona STOP */
